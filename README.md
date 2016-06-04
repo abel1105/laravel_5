@@ -10,28 +10,28 @@
 1. 下載ampps：[_http://files.ampps.com/AMPPS-3.3.dmg_](http://files.ampps.com/AMPPS-3.3.dmg)
 2. 點開下載完的dmg檔，點開後如下圖
 3. 拖曳左邊的檔案到右邊的Application資料夾裡
-4. [Image: file:///-/blob/NHEAAAK03SI/xAfFWy_WwXwxzchmVmfN-Q]
+4. ![ampps](image.png)
 
 ## 二、設定Ampps
 
 1. 到Launchpad 找 Ampps 這隻應用程式
 2. 應用程式內容如下圖
 3. 進入PHP標籤內
-4. [Image: file:///-/blob/NHEAAAK03SI/1JLHaVFaY35nGLmqY_Ks0w]
+4. ![設定ampps](image2.png)
 
 ## 三、設定Ampps - PHP Version
 
 1. 進去Change PHP Version，更改PHP Version 到 PHP 5.6，再按Apply
 2. 記得再進去一次Change PHP Version，查看有沒有真的變動
-3. [Image: file:///-/blob/NHEAAAK03SI/In6dVflSLqPSyiLNVc_daQ]
+3. ![ampps-php](image3.png)
 
 ## 四、設定Ampps - PHP Extension
 
 1. 進去 PHP Extension，將下面圖示有打勾的皆打勾，此為運行laravel必備的套件
 2. 全部打完勾記得再按apply
 3. 然後一樣記得再進去一次PHP Extension，查看有沒有真的變動
-4. [Image: file:///-/blob/NHEAAAK03SI/CyyycvBhFExj_yIXW98Qyg]
-5. [Image: file:///-/blob/NHEAAAK03SI/-g9_F7v8xdEzqi7ngSzLXA]
+4. ![php](image4.png)
+5. ![php extension](image5.png)
 
 ## 五、判斷是否安裝過oh-my-zsh
 
@@ -42,7 +42,7 @@
 1. 到Launchpad 搜尋“終端機”或是你自己安裝的”iTerm”，點開任一個App
 2. 視窗最上面如果出現 zsh 等字樣（如下圖），即代表你曾經安裝過另外一款優化原生bash的程式，接著到步驟六之一
 3. 視窗最上面如果出現 bash 等字樣，請接著到步驟六之二
-4. [Image: file:///-/blob/NHEAAAK03SI/U38OK2D-DLHIowYhAG6Zxg]
+4. ![oh-my-zsh](image6.png)
 
 ## 六之一、oh-my-zsh設定系統PHP執行位置
 
@@ -73,12 +73,12 @@
 1. 貼上完code後，按 Ctrl + O 後，視窗下面會出現類似下圖一的內容
 2. 再接著按 Enter，就會出現 Wrote * lines，如下圖二
 3. 最後再按 Ctrl + X，就可以跳回原輸入指令的地方
-4. [Image: file:///-/blob/NHEAAAK03SI/4e3laeRrcRFePXXPxf_9MA]
-5. [Image: file:///-/blob/NHEAAAK03SI/XjyIkTh9KYVz0wDvNAI4UA]
+4. ![php](image7.png)
+5. ![bashrc](image8.png)
 
 ## 八、打開Apache
 
-[Image: file:///-/blob/NHEAAAK03SI/IimTBJaVug1MR_yxYER9Mw]
+![apache](image9.png)
 1. 打開Ampps 應用程式
 2. 對 Apache （需輸入密碼） 點擊 Start
 
