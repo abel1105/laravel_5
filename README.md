@@ -10,28 +10,28 @@
 1. 下載ampps：[_http://files.ampps.com/AMPPS-3.3.dmg_](http://files.ampps.com/AMPPS-3.3.dmg)
 2. 點開下載完的dmg檔，點開後如下圖
 3. 拖曳左邊的檔案到右邊的Application資料夾裡
-4. ![ampps](image.png)
+4. ![ampps](/image/image.png)
 
 ## 二、設定Ampps
 
 1. 到Launchpad 找 Ampps 這隻應用程式
 2. 應用程式內容如下圖
 3. 進入PHP標籤內
-4. ![設定ampps](image2.png)
+4. ![設定ampps](/image/image2.png)
 
 ## 三、設定Ampps - PHP Version
 
 1. 進去Change PHP Version，更改PHP Version 到 PHP 5.6，再按Apply
 2. 記得再進去一次Change PHP Version，查看有沒有真的變動
-3. ![ampps-php](image3.png)
+3. ![ampps-php](/image/image3.png)
 
 ## 四、設定Ampps - PHP Extension
 
 1. 進去 PHP Extension，將下面圖示有打勾的皆打勾，此為運行laravel必備的套件
 2. 全部打完勾記得再按apply
 3. 然後一樣記得再進去一次PHP Extension，查看有沒有真的變動
-4. ![php](image4.png)
-5. ![php extension](image5.png)
+4. ![php](/image/image4.png)
+5. ![php extension](/image/image5.png)
 
 ## 五、判斷是否安裝過oh-my-zsh
 
@@ -73,8 +73,8 @@
 1. 貼上完code後，按 Ctrl + O 後，視窗下面會出現類似下圖一的內容
 2. 再接著按 Enter，就會出現 Wrote * lines，如下圖二
 3. 最後再按 Ctrl + X，就可以跳回原輸入指令的地方
-4. ![php](image7.png)
-5. ![bashrc](image8.png)
+4. ![php](/image/image7.png)
+5. ![bashrc](/image/image8.png)
 
 ## 八、打開Apache
 
