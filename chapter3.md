@@ -12,7 +12,7 @@
 2. 輸入：
     `ps ax | grep mysql`
     會吐出一列資料，如下，用意為判斷現在是否有mysql在運行
-    1. [Image: file:///-/blob/EaeAAADTHiS/JwKjTSVkb9c_DQjuRTZvvQ]
+    1. ![圖一](/image/chapter3/1.png)
 3. 上面截圖表示有三個正在運行的Mysql，每一個正在運行的程式前面會以五位數的數字表示他的程序ID，而上圖最後一個程序以grep開頭的可以自動忽略，因為是我們輸入指令後才產生的程序，如果只有grep一隻程序的話，代表你的系統目前沒有mysql在運行，跳到**步驟二之二**，如果有除了grep以外的程式，如上圖，代表有mysql在運行，則跳到**步驟二之一**。
 4. ※指令說明：
     `ps ax | grep mysql -> ps ax 為抓取系統所有正在運行的程序，grep mysql 為抓出程序名稱包含mysql字樣的程序`
@@ -59,7 +59,7 @@
 ## 三、開啟AMPPS Mysql
 
 1. 打開AMPPS 應用程式，在Mysql下面點Start按鈕
-    1. [Image: file:///-/blob/EaeAAADTHiS/h11UlqNZfYR6eXEbxXvw-w]
+    1. ![圖二](/image/chapter2/2.png)
 2. 再次輸入指令：
     `ps ax | grep mysql`
 3. ` `查看有沒有下列的程序在運行/Applications/AMPPS/mysql/bin/mysqld
@@ -77,7 +77,7 @@
      照著下圖輸入即可，最後輸完可以先按Add to Favorites，
      他會出現在左側我的最愛，之後進來就可以不用再輸直接按就可以了
      最後再按 Connect
-2. [Image: file:///-/blob/EaeAAADTHiS/rw9PtlQMs6HEtu6BpGSYtw]
+2. ![圖三](/image/chapter2/3.png)
 
 ## 六、新增資料庫
 
@@ -86,7 +86,7 @@
 2. 如果你現在要開一個資料庫供Laravel使用，按一下Add Database
      然後自己打一個方便你辨識的英文名稱
      然後剩下的兩個欄位照下面右圖的去選擇 最後再按Add
-3. [Image: file:///-/blob/EaeAAADTHiS/9R7ULe4ur87SeZd0r6takQ]
+3. ![圖四](/image/chapter2/4.png)
 
 ## 七、新增資料結構
 
@@ -111,7 +111,7 @@
     就是打開程式編輯器，查看下面位置有沒有兩個以上的檔案
      位置：根目錄/database/migrations
 2. 像下圖，就有超過兩個預設檔案，其他的就是寫專案的人創建的
-    1. [Image: file:///-/blob/EaeAAADTHiS/j9eqMxOCCk8ltZxdX0x8TQ]
+    1. ![圖五](/image/chapter2/5.png)
 3. 確認有大於兩個檔案時，打開你的“終端機”或”iTerm”，輸入下列一連串指令
      指令：`cd /Applications/Ampps/www/資料夾名稱`
     指令：`export PATH="$AMPPS_PHP:$PATH"`
@@ -132,11 +132,11 @@
     就是打開程式編~~輯器，查~~看下面位置有沒有一個以上的檔案
      位置：根目錄/database/seeds
 2. 如果有除了DatabaseSeeder.php以外的檔案，代表原先專案有提供Seed，而Seed用意，即把複雜的資料庫必備關聯內容已先行設定完畢
-    1. [Image: file:///-/blob/EaeAAADTHiS/UjxoB3_7gImSzA9VvrVE-A]
+    1. ![圖六](/image/chapter2/6.png)
 3. 以tnl_backend_laravel專案為例，點進去UserPermissionSeeder.php，在第60行到第66行，及設定好使用者的帳號與密碼。
     可以在62行 abel 處，改成你自己習慣的登入帳號
     同理也可以在63行 123 處，改成你自己習慣的登入密碼
-    1. [Image: file:///-/blob/EaeAAADTHiS/TaCrKnTqpNM7ZkqlKknVkQ]
+    1. ![圖七](/image/chapter2/7.png)
 4. 設定好後，一樣打開你的“終端機”或”iTerm”，輸入下列一連串指令
      指令：`cd /Applications/Ampps/www/資料夾名稱`
     指令：`export PATH="$AMPPS_PHP:$PATH"`
