@@ -9,32 +9,23 @@
 ## 二、Clone 專案
 
 1. 按 +New Repository 按鈕，選Clone from URL
-    1. 圖一
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/7WXPCQ8hxjv8R_wEbXjAWQ]
+    1. ![圖一](/image/chapter2/1.png)
 2. 到github連結複製github link 如下，記得是選HTTPS
-    1. 圖二
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/XtayidL3wXxTN9hkGcJ2dA]
+    1. ![圖二](/image/chapter2/2.png)
 3. 貼到Source URL，下面表單會自動填完，記得先不要按Clone
-    1. 圖三
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/FeWdybadadgtIb936cp4zg]
+    1. ![圖三](/image/chapter2/3.png)
 4. 先複製下面的Name
-    1. 圖四
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/CfxnOrBOmH5RqitawhQSXQ]
+    1. ![圖四](/image/chapter2/4.png)
 5. 按Destination Path 旁邊的 瀏覽 Icon
-    1. 圖五
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/386Jv_HkjmTyZ3XOQIco4Q]
+    1. ![圖五](/image/chapter2/5.png)
 6. 接著先進入 應用程式 再選 AMPPS 進去
-    1. 圖六
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/eXE8X8o4XxuCZwRPmp_yxw]
+    1. ![圖六](/image/chapter2/6.png)
 7. 點一下www資料夾，再按最右下角的open（記得不要進去www）
-    1. 圖七
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/WMVs8-Qf3bJPY5RwE8o3-Q]
+    1. ![圖七](/image/chapter2/7.png)
 8. 這時候會變成這樣
-    1. 圖八
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/QmdOlHNMKs6BaeqG7smbLw]
+    1. ![圖八](/image/chapter2/8.png)
 9. 還記得你剛剛複製的嗎？在www後面加一個斜線後再貼上，下面的name就會自己產出。可以放心按Clone惹
-    1. 圖九
-    2. [Image: file:///-/blob/ZGDAAADdyDQ/u0_FG-oNJ0S1HUnZdmZyTw]
+    1. ![圖九](/image/chapter2/9.png)
 
 
 ## 三、安裝Laravel必備套件
@@ -68,7 +59,7 @@
 2. 如果怎麼找就是沒發現，也不用擔心，因為在.gitignore檔案中已經預設將 .env 檔案排出在上傳github的檔案裡了，原因是怕有心人士獲得你的資料庫密碼或其他重要資料
 3. 這時候你去詢問開發者就可以拿到正確的 .env 檔，亦或是自己新增一個新檔案
 
-[Image: file:///-/blob/ZGDAAADdyDQ/7fSyEvMdHTVmR9grUYsTvA]
+![圖十](/image/chapter2/10.png)
 ## 六、介紹環境檔
 
 1. 這裡以新增作為介紹，首先對根目錄按右鍵，選New後再選擇File，即會跳出命名視窗
