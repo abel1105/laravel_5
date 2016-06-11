@@ -2,7 +2,7 @@
 
 ```
 使用下列此教學時機：
-已經完成單獨《壹、安裝空白Laravel》《貳、安裝 github 已經現有的 Laravel 專案》任一者
+  已經完成單獨《一、安裝空白Laravel》《二、安裝 github 已經現有的 Laravel 專案》任一者
 
 ```
 
