@@ -48,14 +48,14 @@
 
 ## Q4：錯誤Can’t connect to local MySQL
 
-[Image: file:///-/blob/XSAAAArhgan/LTwXiKP5bbW5fvBfNzFReQ]
+![圖ㄧ](/image/chapter4/1.png)
 ## A4：
 
 1. 如果看到上面之錯誤，代表沒有開啟AMPPS的MYSQL。
 2. 如果沒開MYSQL，打開AMPPS再MYSQL下面點Start，再刷新一次頁面就可以了。
 3. 如果Start按鈕按下去沒反應，代表可能你已經有別的非Apache的Mysql在運行，這時候建議你到《參、資料庫Mysql設定》照著步驟走，排除掉其他Mysql
     
-4. [Image: file:///-/blob/XSAAAArhgan/JLnhHKJCQq5GtMcrDxE4uw]
+4. ![圖二](/image/chapter4/2.png)
 
 ## Q5：更換phpstorm預設顏色
 
@@ -64,24 +64,24 @@
 1. 下載取得 icls 檔：https://github.com/kevinhowbrook/php-storm-colors
 2. 直接下載zip
 3. 打開 Finder 到 前往的標籤選 前往檔案夾
-    1. [Image: file:///-/blob/XSAAAArhgan/U3MlzQmuMj7w1CBjijNhAA]
+    1. ![圖三](/image/chapter4/3.png)
 4. 複製：~/Library/Preferences/
     貼到跳出的視窗中，接著按前往
-    1. [Image: file:///-/blob/XSAAAArhgan/BIab8WE0w7An0CNuSSD62A]
+    1. ![圖四](/image/chapter4/4.png)
 5. 找一下有個資料夾叫 WebIde100，或是 WebIdeXXX 看你的版本決定
-    1. [Image: file:///-/blob/XSAAAArhgan/pbxaudiK2v7EFoXCeQyJuA]
+    1. ![圖五](/image/chapter4/5.png)
 6. 進去後新增一個資料夾叫 colors
-    1. [Image: file:///-/blob/XSAAAArhgan/52mMRaFHSm7BdlGYafWRQA]
+    1. ![圖六](/image/chapter4/6.png)
 7. 再點進去colors 資料夾 複製你剛剛下載的 icls 檔案
-    1. [Image: file:///-/blob/XSAAAArhgan/3yG-f2g9i0o6DdcCYfpuww]
+    1. ![圖七](/image/chapter4/7.png)
 8. 重新開啟 phpstorm
 9. 在鍵盤上同時敲 command + , (逗點)
 10. 然後在旁邊的樹狀圖選 Editor → Colors & Fonts 再旁邊schema選妳剛剛複製的檔案名稱即可。
-    1. [Image: file:///-/blob/XSAAAArhgan/jllMeeNLj8R4wcnltLuM9A]
+    1. ![圖八](/image/chapter4/8.png)
 
 ## Q6：Artisan Migrate 錯誤
 
-[Image: file:///-/blob/XSAAAArhgan/9jVGWeS4Yi_3BP-F_H_Kmg]
+![圖九](/image/chapter4/9.png)
 ## A6：
 
 1. 先執行`composer dump-autoload`
